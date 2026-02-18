@@ -1,36 +1,13 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 200px);
-  grid-template-rows: repeat(2, 200px);
-  gap: 10px;
-  width: 500px;
-  height: 500px;
-  background-color: lightgray;
-}
-
-.container:hover {
-  background-color: indianred;
-}
-
-.item {
-  width: 100px;
-  height: 100px;
-  background-color: steelblue;
-}
-
-.item:hover{
-  background-color: tomato;
-}
-
 body {
   display: grid;
   place-content: center;
-
   height: 80vh;
   background: black;
 }
 
 a {
+  display: block;
+  
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
